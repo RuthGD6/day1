@@ -4,8 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #with-id{
+            color: blue;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        /* select element with a class */
+        .with-class{
+            color: green;
+            text-align: center;
+        }
+        /* jmultiple selector */
+    #with-id, .another-class{
+        background-color: aqua;
+    }
+    </style>
 </head>
 <body>
+    <!-- problem we want to solve is to apply the styles to the first and the last p tag -->
     <p id="with-id">with id</p>
+    <p class="with-class another-class">with class</p>
+    <p class="with-classes">with classes</p>
+    <p class="example">example1</p>
+    <p class="example">example2</p>
 </body>
 </html>
