@@ -3,13 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    height: 500px;
-    background-color: gray;
-    padding: 12px;
-    display: flex;
-    flex-direction: row-reverse;
-}
 
 .item{
     width: 100px;
@@ -20,3 +13,32 @@
     font-weight: bold;
     font-size: 24px;
 }
+
+/* demo flex direction */
+/* .container{
+    height: 500px;
+    background-color: gray;
+    padding: 12px;
+    display: flex;
+    flex-direction: row-reverse;
+} */
+
+/* justify content */
+/* .container{
+    height: 500px;
+    background-color: gray;
+    padding: 12px;
+    display: flex;
+    justify-content: flex-end;
+} */
+
+/* align items */
+.container{
+    height: 500px;
+    background-color: gray;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
